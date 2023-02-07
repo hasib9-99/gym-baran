@@ -1,11 +1,16 @@
 
 const Navbar = () => {
   return (
-    <nav className="container">
+    <nav className="container ">
         <div className="flex items-center justify-between py-5">
             <div className="logo">
                 <img src="./images/logo.png" alt="#"/>
             </div>
+            {/* <div className="">
+              <button>
+                <i class=" icon fa-solid fa-bars"></i>
+              </button>
+            </div> */}
             <ul className='flex items-center justify-center'>
                 <li className="px-5"><a href="#">Home</a></li>
                 <li className="px-5"><a href="#">Program</a></li>

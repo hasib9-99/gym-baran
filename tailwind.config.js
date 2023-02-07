@@ -6,9 +6,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        '910': '#264373',
-        '920': '#8382EB',
-        '930': '#262524',
+        'primary': {
+          "DEFAULT": '#6765F0',
+          "light": "#8382EB"
+        },
+        'secondary': {
+          "DEFAULT": '#6765F0',
+        },
         '940': '#D388FF',
         'gradient1': '#6462F0',
         'gradient2': '#9190E9',
@@ -22,38 +26,6 @@ module.exports = {
       fontFamily: {
         'Poppins': ['Poppins', 'sans-serif', ],
         'Grotesque': ['Darker Grotesque', 'sans-serif', ],
-      },
-      width: {
-        '97': '492px',
-        '98': '584px',
-        '99': '884px',
-        
-      },
-      height: {
-        '99': '884px',
-      },
-      spacing: {
-        '484px': '-484px',
-        '130px': '130px',
-        '81px': '81px',
-        '40%': '-40%',
-      },
-      
-      boxShadow: {
-        '3xl': '0px 20px 80px rgba(51, 78, 123, 0.3)',
-      },
-      blur: {
-        'xs': '282px'
-      },
-      blur: {
-        'xs': '282px'
-      },
-      lineHeight: {
-        'extra-loose': '73px',
-      },
-      backgroundImage: {
-        'hero-pattern': "url('/img/hero-pattern.svg')",
-        'footer-texture': "url('/img/footer-texture.png')",
       },
     },
   },

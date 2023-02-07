@@ -2,13 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-/* --- Sizing --- */
 
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+/* --- Sizing --- */
 .pimary-btn{
-  @apply bg-910 text-white rounded-xl shadow-3xl;
+  @apply bg-primary text-white rounded-xl shadow-3xl;
 }
 .secondary-btn{
-  @apply bg-white text-910 rounded-xl shadow-3xl;
+  @apply bg-white text-primary rounded-xl shadow-3xl;
 }
 .inner{
   @apply w-99 h-99 rounded-full absolute blur-xs ;
@@ -20,11 +27,5 @@
   @apply text-white font-bold w-40 text-xl pb-4
 }
 .container{
-  width: 1236px;
-  margin: 0 auto;
-}
-*{
-  margin: 0;
-  padding: 0;
-  font-family: 'Poppins', sans-serif;
+  @apply w-[1236px] my-0 mx-auto 
 }
